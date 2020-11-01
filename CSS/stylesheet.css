@@ -30,7 +30,7 @@ body {
     color: crimson !important;
 }
 
-#top, #main, #maintext, #registration, #bottom{
+#top, #main, #maintext, #registration, #confirmation, #bottom{
     display: inline-block;
     opacity: 90%;
     border-radius: 4px;
@@ -81,6 +81,19 @@ body {
     margin: auto;
     font-size: 20px;
     columns: 3 250px;
+    background-color: white;
+    color: black;
+    padding: 50px;
+    width: 100%;
+}
+
+#confirmation {
+    word-break: break-all;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 40px;
+    margin: auto;
+    font-size: 20px;
+    columns: 1 250px;
     background-color: white;
     color: black;
     padding: 50px;
