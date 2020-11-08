@@ -164,7 +164,6 @@
     </form>
 
     <?php
-        if($_POST['submit']=="Submit") {
     			if ($isValid) {
     				?>
     				<form id="hiddenForm" name="hiddenForm"
@@ -184,7 +183,6 @@
     				</script>
     				<?php
     			}
-    	}
     		?>
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sidenav">
